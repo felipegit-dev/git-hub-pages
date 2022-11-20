@@ -30,8 +30,8 @@
     "typescript": "latest"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "rm -rf ./dist && tsc",
+    "start": "node ./dist/index.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
